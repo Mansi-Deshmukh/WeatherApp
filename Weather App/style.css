@@ -19,10 +19,15 @@ body{
     width: 400px;
     height: min-content;
     background-color: #fff;
-    border-radius: 12px;
+    border-radius: 10px;
     padding: 28px;
 }
-
+#time {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+  
 .search-box{
     width: 100%;
     height: min-content;
@@ -42,7 +47,7 @@ body{
 }
 
 .search-box input::placeholder{
-    color: #000;
+    color: #464545;
 }
 
 .search-box button{
@@ -79,6 +84,7 @@ body{
     font-size: 40px;
     font-weight: 800;
     position: relative;
+
 }
 
 .weather-box .temperature sup{
@@ -93,6 +99,9 @@ body{
     text-transform: capitalize;
 }
 
+.weather-box p{
+    color: rgb(66, 128, 81);
+}
 .weather-details{
     width: 100%;
     display: flex;
@@ -107,10 +116,12 @@ body{
 
 .humidity{
     margin-left: 20px;
+    color: rgb(66, 128, 81);
 }
 
 .wind{
     margin-right: 20px;
+    color: rgb(66, 128, 81);
 }
 
 .weather-details i{
@@ -143,3 +154,17 @@ body{
 .location-not-found img{
     width: 80%;
 }
+/* .forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .day {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+  }
+   */
