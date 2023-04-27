@@ -11,3 +11,6 @@ The app is built using APIs provided by weather services, which allow it to retr
 * JavaScript
 * HTML
 * CSS
+
+
+<img src="">
