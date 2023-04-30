@@ -4,10 +4,10 @@ The user simply needs to enter the name of the city they wish to check, and the 
 
 The app is built using APIs provided by weather services, which allow it to retrieve the latest and most accurate temperature readings for each city. This ensures that the information displayed is up-to-date and reliable.
 
-# Features :
+# Features 
 * Real-time weather updates: The app should be able to provide real-time updates on the weather conditions of a location.
 * Multiple location support: Users should be able to search for weather information for multiple locations.
-# Tech Stack :
+# Tech Stack 
 * JavaScript
 * HTML
 * CSS
