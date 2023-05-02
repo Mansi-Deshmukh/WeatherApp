@@ -9,14 +9,29 @@
 
 body{
     min-height: 100vh;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     background-color: #385078;
 }
 
+.top-text{
+    margin-top: 100px;
+    color: #280228;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+.main-continer{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #385078;
+}
 .container{
-    width: 400px;
+    width: 500px;
+       
     height: min-content;
     background-color: #fff;
     border-radius: 10px;
